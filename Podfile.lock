@@ -1,0 +1,16 @@
+PODS:
+  - FSNumberUtils (1.0.0)
+
+DEPENDENCIES:
+  - FSNumberUtils (from `./`)
+
+EXTERNAL SOURCES:
+  FSNumberUtils:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  FSNumberUtils: 32f2bf9da553cecf12c5691bf0d9009852fbecff
+
+PODFILE CHECKSUM: 35abf236efa6a814b59a8821c9800acbccfd767e
+
+COCOAPODS: 1.9.1
