@@ -6,20 +6,12 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		0C99507B75B4C35ADD5C379DB4D305DC /* FSNumberUtils */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 1C749F3786CA3D3913D9855A9CCF3FC3 /* Build configuration list for PBXAggregateTarget "FSNumberUtils" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = FSNumberUtils;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
+		807FB3DFD95CC31B5071FC90C44FD29C /* FSNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3D00130CDAB3A7E0B3C6FFB7DB63AC /* FSNumberFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8CE2C2F56AC143E20CF0C15316B2DD68 /* FSNumberUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 01DBB801F969B84A8F26217916C7D218 /* FSNumberUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BDC5593E1549E42523AA73850A67DE29 /* FSNumberUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0A49CF8A1691DB5F3DAA4907525C96 /* FSNumberUtils-dummy.m */; };
 		FCF85214FD0E900DDB3A91F87E468A13 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BFEF1DDF3D2D328528F7A565F5177D /* Pods-Example-dummy.m */; };
+		FEFF3296640C953D20F7AA2BA04EA42B /* FSNumberFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 780635D4A8958589AA03CD1C809E58E9 /* FSNumberFormatter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,22 +25,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01DBB801F969B84A8F26217916C7D218 /* FSNumberUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSNumberUtils.h; path = FSNumberUtils/FSNumberUtils/FSNumberUtils.h; sourceTree = "<group>"; };
+		0A0A49CF8A1691DB5F3DAA4907525C96 /* FSNumberUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSNumberUtils-dummy.m"; sourceTree = "<group>"; };
+		1386A01989EDCCC73A958A331646AFCB /* FSNumberUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FSNumberUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		17FEA2C80E48108A923839AC968E1FE7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		19F118A558858FFE799779ED32C26D06 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		1F667CC0E19EAF34E5A4119E2121F585 /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Example.a"; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F0E891E6ED02931475A77D75DC29907 /* FSNumberUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSNumberUtils.debug.xcconfig; sourceTree = "<group>"; };
-		4FAA3C262DD4E3077022A6E92EDE6D93 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		829CCA53855CC4AC2AB3D551789EDB67 /* FSNumberUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSNumberUtils.h; path = FSNumberUtils/FSNumberUtils/FSNumberUtils.h; sourceTree = "<group>"; };
+		3B3D00130CDAB3A7E0B3C6FFB7DB63AC /* FSNumberFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSNumberFormatter.m; path = FSNumberUtils/FSNumberUtils/FSNumberFormatter.m; sourceTree = "<group>"; };
+		780635D4A8958589AA03CD1C809E58E9 /* FSNumberFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSNumberFormatter.h; path = FSNumberUtils/FSNumberUtils/FSNumberFormatter.h; sourceTree = "<group>"; };
+		85159A8E108796A5DEB582ACECB3E06F /* FSNumberUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSNumberUtils.release.xcconfig; sourceTree = "<group>"; };
 		873CDB2CE2AB3D55E7F7846B54D0067E /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		995512BD8A1204FF064C89218D3D9059 /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9A06B2CBC7F57E9BE08460BE730B397B /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2439698C2DDD97829BFF990D33B1FD2 /* FSNumberUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSNumberUtils.release.xcconfig; sourceTree = "<group>"; };
+		C91ACE6BE4CB6626C00A6E67C6B85AEF /* libFSNumberUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFSNumberUtils.a; path = libFSNumberUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB5CE60F2648C5816E0D295E71A57FF /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CF244562EEB797B844D0E00A68A57EC9 /* FSNumberUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FSNumberUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D5BFEF1DDF3D2D328528F7A565F5177D /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		F6DBC6222EADC61727A7B7107C83E0D5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EFED77294DB523689C2FA22356140260 /* FSNumberUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSNumberUtils-prefix.pch"; sourceTree = "<group>"; };
+		FDF43B7156E8B37F1A2941FD23D2D732 /* FSNumberUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSNumberUtils.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6D1879A0C7802542FCE40403B0CBA13A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FDCD811F21CEC1328315A85D26ADC094 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -59,32 +63,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1F7784D96EAE590F3222160D7A2F4890 /* Pod */ = {
+		37641FA177414047D1EA08AF6C1A5072 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CF244562EEB797B844D0E00A68A57EC9 /* FSNumberUtils.podspec */,
-				4FAA3C262DD4E3077022A6E92EDE6D93 /* LICENSE */,
-				F6DBC6222EADC61727A7B7107C83E0D5 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		35DC6975D291BC6F8D1D71F13BBABDC5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4F0E891E6ED02931475A77D75DC29907 /* FSNumberUtils.debug.xcconfig */,
-				A2439698C2DDD97829BFF990D33B1FD2 /* FSNumberUtils.release.xcconfig */,
+				0A0A49CF8A1691DB5F3DAA4907525C96 /* FSNumberUtils-dummy.m */,
+				EFED77294DB523689C2FA22356140260 /* FSNumberUtils-prefix.pch */,
+				FDF43B7156E8B37F1A2941FD23D2D732 /* FSNumberUtils.debug.xcconfig */,
+				85159A8E108796A5DEB582ACECB3E06F /* FSNumberUtils.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Pods/Target Support Files/FSNumberUtils";
 			sourceTree = "<group>";
 		};
-		4874EF82B74148F1B075D8BA9E2E87A8 /* Development Pods */ = {
+		3A433C194233BAD36161E18F1B865DC4 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				A6A20D5BE4CD17D269158BA88BA79271 /* FSNumberUtils */,
+				1386A01989EDCCC73A958A331646AFCB /* FSNumberUtils.podspec */,
+				19F118A558858FFE799779ED32C26D06 /* LICENSE */,
+				17FEA2C80E48108A923839AC968E1FE7 /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		52EB880B051AF0EB08F5411727B4E18C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C91ACE6BE4CB6626C00A6E67C6B85AEF /* libFSNumberUtils.a */,
+				1F667CC0E19EAF34E5A4119E2121F585 /* libPods-Example.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		5FEFBFFE4CBFCEE496A3A740F57D04D5 /* Pods-Example */ = {
@@ -100,32 +107,34 @@
 			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
-		8C2A81A90BEC6035409AF100B8E44DC5 /* Products */ = {
+		BC9B59A6913DF1C241F44C0972D42075 /* FSNumberUtils */ = {
 			isa = PBXGroup;
 			children = (
-				1F667CC0E19EAF34E5A4119E2121F585 /* libPods-Example.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		A6A20D5BE4CD17D269158BA88BA79271 /* FSNumberUtils */ = {
-			isa = PBXGroup;
-			children = (
-				829CCA53855CC4AC2AB3D551789EDB67 /* FSNumberUtils.h */,
-				1F7784D96EAE590F3222160D7A2F4890 /* Pod */,
-				35DC6975D291BC6F8D1D71F13BBABDC5 /* Support Files */,
+				780635D4A8958589AA03CD1C809E58E9 /* FSNumberFormatter.h */,
+				3B3D00130CDAB3A7E0B3C6FFB7DB63AC /* FSNumberFormatter.m */,
+				01DBB801F969B84A8F26217916C7D218 /* FSNumberUtils.h */,
+				3A433C194233BAD36161E18F1B865DC4 /* Pod */,
+				37641FA177414047D1EA08AF6C1A5072 /* Support Files */,
 			);
 			name = FSNumberUtils;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		C20F0D9F7076491329F219E956990CAC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC9B59A6913DF1C241F44C0972D42075 /* FSNumberUtils */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				4874EF82B74148F1B075D8BA9E2E87A8 /* Development Pods */,
+				C20F0D9F7076491329F219E956990CAC /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				8C2A81A90BEC6035409AF100B8E44DC5 /* Products */,
+				52EB880B051AF0EB08F5411727B4E18C /* Products */,
 				D5B8D0B62F1C86934FF4C6E7C9986E7F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -155,6 +164,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		40E9D798216F9E594B1DAE6797380C51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEFF3296640C953D20F7AA2BA04EA42B /* FSNumberFormatter.h in Headers */,
+				8CE2C2F56AC143E20CF0C15316B2DD68 /* FSNumberUtils.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -176,6 +194,23 @@
 			productReference = 1F667CC0E19EAF34E5A4119E2121F585 /* libPods-Example.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		0C99507B75B4C35ADD5C379DB4D305DC /* FSNumberUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 066AA90CB60428096E601F280C8CE0F4 /* Build configuration list for PBXNativeTarget "FSNumberUtils" */;
+			buildPhases = (
+				40E9D798216F9E594B1DAE6797380C51 /* Headers */,
+				235CE98D108DEF0D786A909DFA78E6A5 /* Sources */,
+				6D1879A0C7802542FCE40403B0CBA13A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSNumberUtils;
+			productName = FSNumberUtils;
+			productReference = C91ACE6BE4CB6626C00A6E67C6B85AEF /* libFSNumberUtils.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -194,7 +229,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 8C2A81A90BEC6035409AF100B8E44DC5 /* Products */;
+			productRefGroup = 52EB880B051AF0EB08F5411727B4E18C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -205,6 +240,15 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		235CE98D108DEF0D786A909DFA78E6A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				807FB3DFD95CC31B5071FC90C44FD29C /* FSNumberFormatter.m in Sources */,
+				BDC5593E1549E42523AA73850A67DE29 /* FSNumberUtils-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		367E25A40C355C721444394F7AE893D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -282,6 +326,30 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7694BEBDF5EAD488235CE1FE1D43811F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85159A8E108796A5DEB582ACECB3E06F /* FSNumberUtils.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FSNumberUtils/FSNumberUtils-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FSNumberUtils;
+				PRODUCT_NAME = FSNumberUtils;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -370,22 +438,6 @@
 			};
 			name = Debug;
 		};
-		A92107E054D9E1263C49D0F7E3786104 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F0E891E6ED02931475A77D75DC29907 /* FSNumberUtils.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		BF3FF8A05737BFB86085FCCF39FA617B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9A06B2CBC7F57E9BE08460BE730B397B /* Pods-Example.release.xcconfig */;
@@ -408,40 +460,46 @@
 			};
 			name = Release;
 		};
-		CB640D87CDE6E9EF9D97D940C5116DAC /* Release */ = {
+		DF87BEB61EE2AAF1023CF4A81C7F5326 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2439698C2DDD97829BFF990D33B1FD2 /* FSNumberUtils.release.xcconfig */;
+			baseConfigurationReference = FDF43B7156E8B37F1A2941FD23D2D732 /* FSNumberUtils.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FSNumberUtils/FSNumberUtils-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FSNumberUtils;
+				PRODUCT_NAME = FSNumberUtils;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		066AA90CB60428096E601F280C8CE0F4 /* Build configuration list for PBXNativeTarget "FSNumberUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF87BEB61EE2AAF1023CF4A81C7F5326 /* Debug */,
+				7694BEBDF5EAD488235CE1FE1D43811F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		170236D797885DA4AFAF7C7705844CF8 /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9DD200129A24589BE259D781CB1072EA /* Debug */,
 				BF3FF8A05737BFB86085FCCF39FA617B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1C749F3786CA3D3913D9855A9CCF3FC3 /* Build configuration list for PBXAggregateTarget "FSNumberUtils" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A92107E054D9E1263C49D0F7E3786104 /* Debug */,
-				CB640D87CDE6E9EF9D97D940C5116DAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		E12150CA24937C3E006CBD6D /* FSNumberUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E12150C824937C3E006CBD6D /* FSNumberUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E179C2A924937F6000F9DF09 /* FSNumberFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = E179C2A724937F6000F9DF09 /* FSNumberFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E179C2AA24937F6000F9DF09 /* FSNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = E179C2A824937F6000F9DF09 /* FSNumberFormatter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E12150C524937C3E006CBD6D /* FSNumberUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FSNumberUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E12150C824937C3E006CBD6D /* FSNumberUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSNumberUtils.h; sourceTree = "<group>"; };
 		E12150C924937C3E006CBD6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E179C2A724937F6000F9DF09 /* FSNumberFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSNumberFormatter.h; sourceTree = "<group>"; };
+		E179C2A824937F6000F9DF09 /* FSNumberFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSNumberFormatter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,8 @@
 			isa = PBXGroup;
 			children = (
 				E12150C824937C3E006CBD6D /* FSNumberUtils.h */,
+				E179C2A724937F6000F9DF09 /* FSNumberFormatter.h */,
+				E179C2A824937F6000F9DF09 /* FSNumberFormatter.m */,
 				E12150C924937C3E006CBD6D /* Info.plist */,
 			);
 			path = FSNumberUtils;
@@ -60,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E12150CA24937C3E006CBD6D /* FSNumberUtils.h in Headers */,
+				E179C2A924937F6000F9DF09 /* FSNumberFormatter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E179C2AA24937F6000F9DF09 /* FSNumberFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

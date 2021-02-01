@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "FSNumberUtils"
   s.version      = "1.0.0"
-  s.summary      = "一个轻量级的数组显示处理工具"
+  s.summary      = "数值显示处理工具"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-iOS数值数字处理工具。包含四舍五入、向正无穷大舍入、向负无穷大舍入、从零舍弃等。千分位逗号。保留小数。
+iOS数值精度处理工具。主要包含舍入方法（四舍五入、尾数舍去），末尾补零处理（末尾舍零，末尾补零）。标准化处理业务需要的场景，简单易用。
                    DESC
 
   s.homepage     = "https://github.com/zhangzhongyan/FSNumberUtils"

@@ -16,4 +16,5 @@ FOUNDATION_EXPORT const unsigned char FSNumberUtilsVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <FSNumberUtils/PublicHeader.h>
 
+#import "FSNumberFormatter.h"
 
